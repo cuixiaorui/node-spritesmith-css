@@ -6,7 +6,7 @@
 const fs = require("fs");
 const path = require("path");
 const Spritesmith = require("spritesmith");
-const options = {
+let options = {
   output: "./",
   name: "sprites"
 };
