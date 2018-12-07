@@ -1,0 +1,20 @@
+{
+  "name":"spritesmith-css",
+  "version": "1.0.0",
+  "description": "Generates the Sprites and the corresponding CSS",
+  "keywords": [
+    "sprites",
+    "spritesmith",
+    "css",
+    "style"
+  ],
+  "author":"https://github.com/cuixiaorui",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cuixiaorui/node-spritesmith-css"
+  },
+  "dependencies": {
+    "spritesmith": "^3.3.1"
+  },
+  "license": "MIT"
+}

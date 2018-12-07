@@ -1,0 +1,36 @@
+.icon-a {
+    background-image: url(sprites.png);
+    background-position: -0px -0px;
+    width: 80px;
+    height: 64px;
+}
+.icon-b {
+    background-image: url(sprites.png);
+    background-position: -80px -0px;
+    width: 80px;
+    height: 64px;
+}
+.icon-c {
+    background-image: url(sprites.png);
+    background-position: -0px -64px;
+    width: 80px;
+    height: 64px;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi) {
+    .icon-a{
+    background-image: url(sprites@2x.png);
+    background-size: 160px 128px;
+  }
+.icon-b{
+    background-image: url(sprites@2x.png);
+    background-size: 160px 128px;
+  }
+.icon-c{
+    background-image: url(sprites@2x.png);
+    background-size: 160px 128px;
+  }
+
+  }
+  
