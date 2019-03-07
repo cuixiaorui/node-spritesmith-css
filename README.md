@@ -8,7 +8,7 @@
 ```
 ## 使用
 ```js
-    const spritesmith2css = requir("spritesmith-css");
+    const spritesmith2css = require("spritesmith-css");
     //src 为 1x 的 icon 地址列表
     //src2 为 2x 的 icon 地址列表（用于支持 sprites，你必须使用两倍大小的 icon）
     spritesmith2css({
