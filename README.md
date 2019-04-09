@@ -9,8 +9,8 @@
 ## 使用
 ```js
     const spritesmith2css = require("spritesmith-css");
-    //src 为 1x 的 icon 地址列表
-    //src2 为 2x 的 icon 地址列表（用于支持 sprites，你必须使用两倍大小的 icon）
+    //src 为 1x 的 icon 地址列表
+    //src2 为 2x 的 icon 地址列表（用于支持 sprites，你必须使用两倍大小的 icon）
     spritesmith2css({
         src: src1x,
         src2: src2x
@@ -22,7 +22,7 @@
 - type: Array
 - required: true
 
-需要合并的图片的地址列表
+需要合并的图片的地址列表
 
 ### src2
 - type: Array
